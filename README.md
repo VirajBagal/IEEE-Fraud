@@ -1,7 +1,7 @@
 # IEEE-Fraud
 IEEE Fraud Detection was a competition on Kaggle. I was competing in it. This is how I went on to analyse the data. The data was highly imbalanced .
 
-1. Initially, to get baseline model, I just filled Nans with -999, used LabelEncoding, used algorithm to reduce size of data and used XGB          model.
+1. Initially, I plotted all the feature distributions labelling them Fraud and Non-Fraud as to know how they differ in both categories. Then I    plotted the same feature distribution in train and test to see how much they vary.To get baseline model, I just filled Nans with -999, used    LabelEncoding, used algorithm to reduce size of data and used XGB model.
 
 2. I started dropping some columns based on the number of unique values and number of Nans in it. 
 
